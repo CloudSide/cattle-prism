@@ -1,0 +1,13 @@
+*.tmp
+*.pprof
+*.memprof
+swagger/
+routers/commentsRouter_*
+docs/docs.go
+swagger.zip
+cattle-prism
+cattle-prism.zip
+.DS_Store
+tmp/
+vendor_v2/
+*.swp
