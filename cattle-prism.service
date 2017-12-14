@@ -2,7 +2,7 @@
 Description=Cattle Prism
 [Service]
 TimeoutStartSec=5m
-ExecStart=/bin/bash -c 'cd /usr/local/src/go/src/cattle-prism && bee run'
+ExecStart=/bin/bash -c 'cd /usr/local/src/go/src/cattle-prism && /usr/local/src/go/bin/bee run'
 Restart=on-failure
 RestartSec=5
 [Install]
